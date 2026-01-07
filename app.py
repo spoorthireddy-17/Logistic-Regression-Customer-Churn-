@@ -41,7 +41,7 @@ page = st.sidebar.radio("Go to", ["Dashboard", "Predict Customer"])
 # -------------------------------------------------
 @st.cache_data
 def load_data():
-    return pd.read_csv("C:\\Users\\spoor\\Downloads\\Telco-Customer-Churn.csv")
+    return pd.read_csv("Telco-Customer-Churn.csv")
 
 df = load_data()
 
